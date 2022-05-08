@@ -13,84 +13,82 @@
 
   ## retirng mentor count
 
-  ```markdown
-  <table border="1" class="dataframe">
-    <thead>
-      <tr style="text-align: right;">
-        <th></th>
-        <th>dept_name</th>
-        <th>retiring_count</th>
-        <th>mentor_count</th>
-        <th>rmc_ratio</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>0</th>
-        <td>Marketing</td>
-        <td>2782</td>
-        <td>126</td>
-        <td>22</td>
-      </tr>
-      <tr>
-        <th>1</th>
-        <td>Finance</td>
-        <td>2374</td>
-        <td>74</td>
-        <td>32</td>
-      </tr>
-      <tr>
-        <th>2</th>
-        <td>Human Resources</td>
-        <td>2446</td>
-        <td>107</td>
-        <td>22</td>
-      </tr>
-      <tr>
-        <th>3</th>
-        <td>Production</td>
-        <td>10224</td>
-        <td>356</td>
-        <td>28</td>
-      </tr>
-      <tr>
-        <th>4</th>
-        <td>Development</td>
-        <td>11627</td>
-        <td>435</td>
-        <td>26</td>
-      </tr>
-      <tr>
-        <th>5</th>
-        <td>Quality Management</td>
-        <td>2816</td>
-        <td>97</td>
-        <td>29</td>
-      </tr>
-      <tr>
-        <th>6</th>
-        <td>Sales</td>
-        <td>7301</td>
-        <td>272</td>
-        <td>26</td>
-      </tr>
-      <tr>
-        <th>7</th>
-        <td>Research</td>
-        <td>2956</td>
-        <td>113</td>
-        <td>26</td>
-      </tr>
-      <tr>
-        <th>8</th>
-        <td>Customer Service</td>
-        <td>3258</td>
-        <td>128</td>
-        <td>25</td>
-      </tr>
-    </tbody>
-  </table>
-  ```
+ <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dept_name</th>
+      <th>retiring_count</th>
+      <th>mentor_count</th>
+      <th>rmc_ratio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Marketing</td>
+      <td>2782</td>
+      <td>126</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Finance</td>
+      <td>2374</td>
+      <td>74</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Human Resources</td>
+      <td>2446</td>
+      <td>107</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Production</td>
+      <td>10224</td>
+      <td>356</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Development</td>
+      <td>11627</td>
+      <td>435</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Quality Management</td>
+      <td>2816</td>
+      <td>97</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Sales</td>
+      <td>7301</td>
+      <td>272</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Research</td>
+      <td>2956</td>
+      <td>113</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Customer Service</td>
+      <td>3258</td>
+      <td>128</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Summary:
 
