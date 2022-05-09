@@ -1,12 +1,12 @@
 # Pewlett Hackard Employee Database Analysis
 
 ## Overview of the analysis:
-    - Pewlett Hackard (PH) is a large company with several thousand employees. A considerable number of the employees are ready to retire in the next few years. Hence, the primary goal of this analysis is to identify who is going to retire for each department, and how many positions PH needs to fill. 
+    - Pewlett Hackard (PH) is a large company with several thousand employees. A considerable number of the employees are ready to retire in the next few years. Hence, the primary goal of this analysis is to identify who is going to retire for each department, and how many positions PH needs to fill.
     - PH has been using spreed sheets to store manage their data. The first step of this analysis is building an employee database using PostgreSQL.
 
-## Data files:  
+## Data files:
     1. departments.csv 
-	2. dept_emp.csv
+    2. dept_emp.csv
 	3. dept_manager.csv
 	4. employees.csv
 	5. salaries.csv
