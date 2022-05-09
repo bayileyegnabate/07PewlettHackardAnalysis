@@ -18,9 +18,9 @@
     - Terminal
 
 ## Results: 
-    - 41380 (around 14% ) of PH's employees  will be retiring in the coming few years
+    - 41380 (about 14% ) of PH's employees will be retiring in the coming few years
     - there are a only around 1,500 employees who are eligible for the mentorship program. 
-	- The results of this analysis will help PH how to proceed of to fill more than 40,000 positions 
+	- The results of this analysis will help PH how to proceed to fill more than 40,000 positions 
     - The upcoming retirement for each title is summrized in the teable bellow:
 	
 <table border="1" class="dataframe">
