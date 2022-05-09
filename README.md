@@ -1,17 +1,84 @@
 # Pewlett Hackard Employee Database Analysis
 
-## Overview of the analysis 
+## Overview of the analysis:
+	* Pewlett Hackard (PH) is a large company with several thousand employees. A considerable number of the employees are ready to retire in the next few years. Hence, the primary goal of this analysis is to identify who is going to retire for each department, and how many positions PH needs to fill. 
+	* PH has been using spreed sheets to store manage their data. The first step of this analysis is building an employee database using PostgreSQL.
 
-* Explain the purpose of this analysis.
-* Pewlett Hackard (PH) is a large company with several thousand employees. Some of these employees are ready to retire in the next few years. Hence, the primary goal of this analysis is identify who is going to retire and how many positions PH needs to fill. 
-* PH has been using spreed sheets to store their data. The first step of the analysis will be building an employee database using PostgreSQL.
-* which has been using spreed sheets to store and manage data. The main purpose of the analsis is to find out who is going to retire in the next few years; and how many positions need the company need to fill. Help PH by listing all employees eligible for retirement package. The data is contained in six csv files. PH has been using spreed sheets to store their data. They want to migrate to sql. Help build an employee database using sql by using data engineering, modeling and analysis.  
+## Data files:  
+	1. departments.csv 
+	2. dept_emp.csv
+	3. dept_manager.csv
+	4. employees.csv
+	5. salaries.csv
+	6. titles.csv
+	
+## software / Tools:
+* PostgreSQL 14.2
+* pgAdmin4 6.8
+* Terminal
 
 ## Results: 
+	* Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed. 
+	
+	* 41380 ( around 14% ) of PH's employees  will be retiring in the coming few years
 
-* Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed. 
+	* there are a only around 1,500 employees who are eligible for the mentorship program. 
+	
+	* The results of this analysis will help PH how to proceed of to fill more than 40,000 positions 
+	
+	* The upcoming retirement for each title is summrized in the teable bellow:
+	<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>25916</td>
+      <td>Senior Engineer</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>24926</td>
+      <td>Senior Staff</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>9285</td>
+      <td>Engineer</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>7636</td>
+      <td>Staff</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>3603</td>
+      <td>Technique Leader</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>1090</td>
+      <td>Assistant Engineer</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2</td>
+      <td>Manager</td>
+    </tr>
+  </tbody>
+</table>
 
-  ## retirng mentor count
+## Summary:
+	* From the result of first two analyses we found that there will be more than 40, 000 employees ready to retire in the near future, while there are just al little over 1500 who are eligible for the mentorship program. 
+	* The table bellow summarises the count for both retiring and mentors by department. 
+
+## Retiring mentor  count
 
  <table border="1" class="dataframe">
   <thead>
@@ -90,11 +157,6 @@
   </tbody>
 </table>
 
-## Summary:
+* The summary table clearly shows the huge gap between the number of upcoming retirements and the number of employees who qualify to the mentorship program.
 
-* Provide high-level responses to the following  questions, then provide two additional queries or tables that may  provide more insight into the upcoming "silver tsunami."
-
-- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-- There are over 41380 employees ready to retire in near future, but only 1549 of them are elgible for the mentorship program. 
-- Are there enough qualified, retirement-ready employees in the  departments to mentor the next generation of Pewlett Hackard employees? 
-- There seems to be a huge gap between the number of upcoming retirement and the number of employees who qualify to the mentorship program. From retiring_mentor table shown above it is evident that there are no enough mentors in any of the PH departments. In every department, there are more than 20 employees ready to retire for evey qualifing mekntor. The rmc-ratio column show the approximate retiring-to-mentor ratio. In Finance department, for instance there will be more than 32 retirements for every mentor. 
+* In every department, there are more than 20 employees ready to retire for evey qualifying mentor. The rmc-ratio column show the approximate retiring-to-mentor ratio. In Finance department, for instance there will be more than 32 retirements for every mentor. 
