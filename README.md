@@ -1,8 +1,8 @@
 # Pewlett Hackard Employee Database Analysis
 
 ## Overview of the analysis:
-	* Pewlett Hackard (PH) is a large company with several thousand employees. A considerable number of the employees are ready to retire in the next few years. Hence, the primary goal of this analysis is to identify who is going to retire for each department, and how many positions PH needs to fill. 
-	* PH has been using spreed sheets to store manage their data. The first step of this analysis is building an employee database using PostgreSQL.
+    * Pewlett Hackard (PH) is a large company with several thousand employees. A considerable number of the employees are ready to retire in the next few years. Hence, the primary goal of this analysis is to identify who is going to retire for each department, and how many positions PH needs to fill. 
+    * PH has been using spreed sheets to store manage their data. The first step of this analysis is building an employee database using PostgreSQL.
 
 ## Data files:  
 	1. departments.csv 
@@ -13,20 +13,15 @@
 	6. titles.csv
 	
 ## software / Tools:
-* PostgreSQL 14.2
-* pgAdmin4 6.8
-* Terminal
+    * PostgreSQL 14.2
+    * pgAdmin4 6.8
+    * Terminal
 
 ## Results: 
-	* Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed. 
-	
-	* 41380 ( around 14% ) of PH's employees  will be retiring in the coming few years
-
-	* there are a only around 1,500 employees who are eligible for the mentorship program. 
-	
+    * 41380 (around 14% ) of PH's employees  will be retiring in the coming few years
+    * there are a only around 1,500 employees who are eligible for the mentorship program. 
 	* The results of this analysis will help PH how to proceed of to fill more than 40,000 positions 
-	
-	* The upcoming retirement for each title is summrized in the teable bellow:
+    * The upcoming retirement for each title is summrized in the teable bellow:
 	
 <table border="1" class="dataframe">
   <thead>
@@ -76,8 +71,8 @@
 </table>
 
 ## Summary:
-	* From the result of first two analyses we found that there will be more than 40, 000 employees ready to retire in the near future, while there are just al little over 1500 who are eligible for the mentorship program. 
-	* The table bellow summarises the count for both retiring and mentors by department. 
+    * From the result of first two analyses we found that there will be **more than 40,000** employees ready to retire in the near future, while there are just al little over 1500 who are eligible for the mentorship program. 
+    * The table bellow summarises the count for both retiring and mentors by department. 
 
 ## Retiring mentor  count
 
@@ -160,4 +155,4 @@
 
 * The summary table clearly shows the huge gap between the number of upcoming retirements and the number of employees who qualify to the mentorship program.
 
-* In every department, there are more than 20 employees ready to retire for evey qualifying mentor. The rmc-ratio column show the approximate retiring-to-mentor ratio. In Finance department, for instance there will be more than 32 retirements for every mentor. 
+* In every department, there are more than 20 employees ready to retire for evey qualifying mentor. The **rmc-ratio** column show the approximate retiring-to-mentor ratio. In Finance department, for instance there will be more than 32 retirements for every mentor. 
