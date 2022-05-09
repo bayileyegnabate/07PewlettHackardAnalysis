@@ -27,7 +27,8 @@
 	* The results of this analysis will help PH how to proceed of to fill more than 40,000 positions 
 	
 	* The upcoming retirement for each title is summrized in the teable bellow:
-	<table border="1" class="dataframe">
+	
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
